@@ -1,0 +1,163 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("/fonts/roboto/Roboto-Light.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #808080;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 2px black;
+    z-index: 2;
+    font-size: 24px;
+}
+
+.hdr-logo{
+    height: 70px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(91deg) brightness(107%) contrast(101%);
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    flex: 1;
+    list-style: none;
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    padding: 23px 0;
+    border: 1px solid transparent;
+}
+
+.sct-container.sctone{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    background-color: #808080;
+}
+
+.posebna-ponuda{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    font-size: 18px;
+    min-width: 0;
+}
+
+button{
+    background-color: inherit;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    color: black;
+}
+
+button:hover{
+    color: white;
+    border-color: white;
+}
+
+li:hover{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.sct-container.scttwo{
+    background-color: #808080;
+    padding: 0 0 80px 0;
+}
+
+.sct-container.scttwo,
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sct-container.scttwo .fig-container{
+    display: flex;
+    flex-direction: row;
+}
+
+figure img{
+    height: 120px;
+    width: 120px;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+figure img:hover{
+    border: 1px solid white;
+}
+
+.sct-container.sctthree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #606060;
+    box-shadow: 0 0 2px black;
+    z-index: 2;
+}
+
+#p-em{
+    width: 700px;
+    font-size: 36px;
+}
+
+#p-strong{
+    align-self: flex-end;
+    padding-right: 550px;
+    font-size: 16px;
+}
+
+.sct-container.sctfour{
+    margin: 80px auto;
+    border: 1px solid black;
+    display: flex;
+    height: 1px;
+    flex-flow: column wrap;
+    height: 150px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 2px #1f2937;
+}
+
+h1{
+    font-size: 48px;
+    font-style: bold;
+}
+
+h2{
+    font-size: 36px;
+    font-style: bold;
+}
