@@ -27,6 +27,10 @@ header{
     font-size: 24px;
 }
 
+img.posebna-ponuda{
+    object-fit:scale-down;
+}
+
 .hdr-logo{
     height: 70px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(91deg) brightness(107%) contrast(101%);
